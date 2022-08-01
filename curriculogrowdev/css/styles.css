@@ -1,0 +1,84 @@
+
+.fundo {
+    background-color: rosybrown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+}
+
+.bloco1 {
+    width: 200px;
+    margin: 15% auto;
+    border-radius: 50%;
+    display:auto;
+    max-height: 15rem;
+    border: 0.4rem solid rgba(41, 34, 34, 0.2);
+    max-height: 300px;
+    position: absolute;
+    top: 120px;
+}
+.bloco2 {
+
+    position: absolute;
+    width: 50%;
+    left: 30%;
+    top: 30%;
+    
+}
+.cor {
+    color: rosybrown;
+}
+.conhecimento {
+    position: absolute;
+    width: 50%;
+    left: 30%;
+    top: 20%;
+}
+.social-icon{  
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    }
+
+    .icons li{
+    height: 50px;
+    font-size: 20px;
+    }
+
+    .objetivos {
+    position: absolute;
+    width: 50%;
+    left: 30%;
+    top: 30%;
+
+    }
+
+    .sobre {
+    position: absolute;
+    top: 60%;
+    left: 60px;
+    text-align: center;
+    transition: all 300ms ease;
+    
+    }
+    .sobre :hover {
+        color: pink;
+        cursor: pointer;
+        
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 900px;
+    }
